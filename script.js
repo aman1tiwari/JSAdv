@@ -39,5 +39,20 @@ function display(){
   document.getElementById("table1").innerHTML = mytable;
 }
 
-
+class Emp {
+    function (){
+        var Emp_id=document.getElementById("ID").value;
+        var Emp_name=document.getElementById("name").value;
+        var Emp_salary=document.getElementById("salary").value;
+    
+    var Emp_ob = {
+        Emp_ID: Emp_id,
+        Emp_Name: Emp_name,
+        Emp_Salary: Emp_salary,
+      };
+      cart.push(Emp_ob);
+      add();
+      display();
+    }
   
+}
