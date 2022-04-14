@@ -15,6 +15,9 @@ function add() {
     Updated_sal: upsal,
   };
   cart.push(product);
+  const myJSON = JSON.stringify(cart);
+console.log(myJSON)
+
 
   display();
 }
